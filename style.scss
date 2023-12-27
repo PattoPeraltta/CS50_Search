@@ -1,10 +1,11 @@
-
-
-body{
-    
-    background-color: rgb(37, 37, 37);
+html,body{
+    background-color: #4e4e4e;
     height: 100vh;
+    margin: 0;
+}
+body{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -16,27 +17,17 @@ body{
     font-family: Arial
     
 }
-
-.botones{
-    position: absolute;
-    margin-top: 120px;
+.search-container {
+    text-align: center;
     display: flex;
-    justify-content: space-between;
-
-}
-
-#but1{
-    border-radius: 5px;
-    margin-right: 5px;
-    width: 170px;
-    height: 30px;
+    flex-direction: column;
+    align-items: center;
 }
 
 #but2{
-    border-radius: 5px;
-    margin-left: 5px;
-    width: 170px;
-    height: 30px;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
 }
 
 .GooGrandee{
@@ -45,19 +36,16 @@ body{
     font-size: 80px;
 }
 
-#popo1{
-    position: relative;
-    margin-top: 0px;
-    margin-left: 0px;
+#buscador{
+    margin-top: 40px;
     width: 600px;
     height: 40px;
     border-radius: 15px;
-
 }
-#popo2{
-    position: absolute;
+
+#submit{
+    margin-top: 10px;
     margin-left: 5px;
-    width: 140px;
-    height: 40px;
-    border-radius: 15px;
+    height: 30px;
+    border-radius: 10px;
 }
