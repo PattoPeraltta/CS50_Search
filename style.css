@@ -1,5 +1,4 @@
 html, body {
-  background-color: #4e4e4e;
   height: 100vh;
   margin: 0;
 }
@@ -40,6 +39,14 @@ body {
   position: absolute;
 }
 
+#GooChiqui {
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  width: 74px;
+  height: 24px;
+}
+
 #buscador {
   margin-top: 40px;
   width: 582px;
@@ -56,6 +63,41 @@ body {
   margin-left: 5px;
   height: 30px;
   border-radius: 5px;
+}
+
+#advanced {
+  color: #d93025;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 60px;
+  left: 42px;
+}
+
+#findpages {
+  position: absolute;
+  top: 170px;
+  left: 40px;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  color: #333;
+}
+
+.row_input {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 250px;
+  left: 40px;
+}
+
+.left {
+  width: 200px;
+}
+
+.right {
+  width: 385px;
 }
 
 /*# sourceMappingURL=style.css.map */
