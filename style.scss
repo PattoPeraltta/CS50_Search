@@ -27,25 +27,34 @@ body{
 #but2{
     margin-top: 10px;
     margin-right: 5px;
-    border-radius: 10px;
+    border-radius: 5px;
+    background-color: #757171;
+    color: #ffffff;
+    border-width: 0;
+    height: 30px;
+    
 }
 
-.GooGrandee{
-    margin-bottom: 150px;
+.GooGrande{
+    margin-bottom: 200px;
     position: absolute;
-    font-size: 80px;
+    
 }
 
 #buscador{
     margin-top: 40px;
-    width: 600px;
-    height: 40px;
-    border-radius: 15px;
+    width: 582px;
+    height: 46px;
+    border-radius: 25px;
+    border-color: #bbb2b2;
 }
 
 #submit{
+    background-color: #757171;
+    color: #ffffff;
+    border-width: 0;
     margin-top: 10px;
     margin-left: 5px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
