@@ -27,8 +27,8 @@ body{
     margin-top: 10px;
     margin-right: 5px;
     border-radius: 5px;
-    background-color: #757171;
-    color: #ffffff;
+    background-color: #f8f9fa;
+    color: #3c4043;
     border-width: 0;
     height: 30px;
     
@@ -54,12 +54,12 @@ body{
     width: 582px;
     height: 46px;
     border-radius: 25px;
-    border-color: #bbb2b2;
+    border-width: 0.5px;
 }
 
 #submit{
-    background-color: #757171;
-    color: #ffffff;
+    background-color: #f8f9fa;
+    color: #3c4043;
     border-width: 0;
     margin-top: 10px;
     margin-left: 5px;
@@ -72,7 +72,7 @@ body{
     font-family: arial, sans-serif;
     font-size: 20px;
     position: absolute;
-    top: 60px;
+    top: 100px;
     left: 42px;
 
 }
@@ -87,12 +87,13 @@ body{
 }
 
 .row_input{
-    justify-content: center;
     display: flex;
     flex-direction: row;
-    position: absolute;
+    font-size: 13px;
+    font-family: arial, sans-serif;
     top: 250px;
     left: 40px;
+    margin-top: 10px;
 
 }
 
@@ -103,3 +104,32 @@ body{
 .right{
     width: 385px;
 } 
+
+.rows{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 40px;
+    top: 220px;
+}
+
+.line {
+    position: absolute;
+    top:120px;
+    width: 100%;
+}
+
+#submit-advanced{
+    background-color: #4d90fe;
+    color: white;
+    height: 30px;
+    width: 132px;
+    border: 1px solid #3079ed;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2px;
+    position: absolute;
+    top: 220px;
+    left: 450px;
+}
